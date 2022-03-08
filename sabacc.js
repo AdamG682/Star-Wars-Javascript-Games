@@ -21,16 +21,16 @@ document.addEventListener('DOMContentLoaded', () => {
             img: 'Images/SabaccCard3.png'
         },
         {
-            name: 'card4',
-            img: 'Images/SabaccCard4.png'
+            name: 'card3',
+            img: 'Images/SabaccCard3.png'
         },
         {
             name: 'card4',
             img: 'Images/SabaccCard4.png'
         },
         {
-            name: 'card5',
-            img: 'Images/SabaccCard5.png'
+            name: 'card4',
+            img: 'Images/SabaccCard4.png'
         },
         {
             name: 'card5',
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cardsChosenID = []
         resultDisplay.textContent = cardsWon.length
         if (cardsWon.length === cardArray.length / 2) {
-            resultDisplay.textContent = 'Congratulations! You found all the matches.'
+            resultDisplay.textContent = ' Congratulations! You found all the matches.'
         }
     }
 

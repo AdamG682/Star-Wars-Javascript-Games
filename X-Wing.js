@@ -64,13 +64,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         for (let i = 0; i <= alienInvaders.length - 1; i++) {
             if (alienInvaders[i] > (squares.length - (width - 1))) {
-                resultDisplay.textContent = 'Game Over'
+                resultDisplay.textContent = ' Game Over'
                 clearInterval(invaderID)
             }
         }
 
         if (alienInvadersTakenDown.length === alienInvaders.length) {
-            resultDisplay.textContent = 'You Win'
+            resultDisplay.textContent = ' You Win'
             clearInterval(invaderID)
         }
     }
