@@ -22,9 +22,11 @@
 }
 
 .laser {
-    background-color: orange;
+    height: 30px;
+    width: 10px;
+    background-color: red
 }
 
 .boom {
-    background-color: red;
+    background-color: orange;
 }
