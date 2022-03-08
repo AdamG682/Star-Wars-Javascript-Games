@@ -122,38 +122,3 @@ nav>ul>li {
 .overflow {
     overflow-x: auto;
 }
-
-
-/*X-Wing Invaders Game Styles*/
-
-.grid {
-    width: 300px;
-    height: 300px;
-    border: solid black 1px;
-    background-image: url(https://i.pinimg.com/564x/4a/a9/9b/4aa99b6ad2d2cbc7cb04a41571885a8f.jpg);
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.grid div {
-    width: 20px;
-    height: 20px;
-}
-
-.invader {
-    background-color: purple;
-    border-radius: 10px;
-}
-
-.shooter {
-    background-color: green;
-}
-
-.laser {
-    background-color: red;
-    border-radius: 3px;
-}
-
-.boom {
-    background-color: orange;
-}

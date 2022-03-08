@@ -1,3 +1,131 @@
+html {
+    background-color: #0b0c10;
+}
+
+
+/*Title*/
+
+#mainTitle {
+    font-size: 75px;
+    font-family: 'Staatliches', cursive;
+    font-weight: bold;
+    font-display: swap;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 5px 5px #1F2833;
+    padding: 0;
+}
+
+
+/*Navigation*/
+
+.navigation {
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 15px 60px;
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+}
+
+nav a:hover {
+    text-decoration: none;
+    background-color: #2E4558;
+    padding: 10px 60px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px #45A29E, 0 0 10px #66FCF1, 0 0 20px #edd;
+}
+
+nav ul,
+nav ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav>ul {
+    background-color: #1F2833;
+    text-align: center;
+}
+
+nav>ul>li {
+    display: inline-block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+
+/*Column Design*/
+
+@media only screen and (min-width: 768px) {
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.overflow {
+    overflow-x: auto;
+}
+
+
+/*Sabacc Matching Game*/
+
 .grid {
     display: flex;
     flex-wrap: wrap;
