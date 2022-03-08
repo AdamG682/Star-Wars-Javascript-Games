@@ -57,20 +57,20 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         if (squares[currentShooterIndex].classList.contains('invader', 'shooter')) {
-            resultDisplay.textContent = 'Game Over'
+            resultDisplay.textContent = ' You have failed the Rebellion. Empire Wins.'
             squares[currentShooterIndex].classList.add('boom')
             clearInterval(invaderID)
         }
 
         for (let i = 0; i <= alienInvaders.length - 1; i++) {
             if (alienInvaders[i] > (squares.length - (width - 1))) {
-                resultDisplay.textContent = ' Game Over'
+                resultDisplay.textContent = ' You have failed the Rebellion. Empire Wins.'
                 clearInterval(invaderID)
             }
         }
 
         if (alienInvadersTakenDown.length === alienInvaders.length) {
-            resultDisplay.textContent = ' You Win'
+            resultDisplay.textContent = ' Congratulations! You are the best X-Wing pilot.'
             clearInterval(invaderID)
         }
     }

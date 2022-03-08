@@ -111,17 +111,15 @@ div.grid {
 }
 
 .invader {
-    background-color: darkslategrey;
-    border-radius: 10px;
+    background-image: url("Images/tieFighter.png");
 }
 
 .shooter {
-    background-color: whitesmoke;
+    background-image: url("Images/XWing.png");
 }
 
 .laser {
-    background-color: red;
-    width: 5px;
+    background-image: url("Images/proton.png");
 }
 
 .boom {
@@ -129,7 +127,7 @@ div.grid {
 }
 
 h3 {
-    font-size: 55px;
+    font-size: 40px;
     font-family: 'Staatliches', cursive;
     font-weight: bold;
     font-display: swap;
