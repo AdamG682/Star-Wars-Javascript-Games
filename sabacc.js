@@ -77,9 +77,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (optionOneID == optionTwoID) {
             cards[optionOneID].setAttribute('src', 'Images/background.jpg')
             cards[optionTwoID].setAttribute('src', 'Images/background.jpg')
-            alert('Same image clicked.')
+            alert('That is the same card bucketbrain.')
         } else if (cardsChosen[0] === cardsChosen[1]) {
-            alert('You found a match')
+            alert('Congrats flyboy. You found a Sabacc pair, keep it up.')
             cards[optionOneID].setAttribute('src', 'Images/flash.jpg')
             cards[optionTwoID].setAttribute('src', 'Images/flash.jpg')
             cards[optionOneID].removeEventListener('click', flipCard)
@@ -88,13 +88,13 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             cards[optionOneID].setAttribute('src', 'Images/background.jpg')
             cards[optionTwoID].setAttribute('src', 'Images/background.jpg')
-            alert('Sorry, try again.')
+            alert('What in the blazes... Those cards are not a match, try again.')
         }
         cardsChosen = []
         cardsChosenID = []
         resultDisplay.textContent = cardsWon.length
         if (cardsWon.length === cardArray.length / 2) {
-            resultDisplay.textContent = ' Congratulations! You found all the matches.'
+            resultDisplay.textContent = ' Woohoo! Way to find all the Sabacc pairs.'
         }
     }
 

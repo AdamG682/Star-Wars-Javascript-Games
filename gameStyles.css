@@ -78,6 +78,7 @@ nav>ul>li {
     flex-wrap: wrap;
     height: 300px;
     width: 400px;
+    border: solid white 4px;
 }
 
 .centered {
