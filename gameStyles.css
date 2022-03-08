@@ -67,6 +67,22 @@ nav>ul>li {
     display: inline-block;
 }
 
+/*Loading Animation*/
+
+.loading {
+    animation: loadingAnimation 2s
+}
+
+@keyframes loadingAnimation {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
 
 /*Sabacc Matching Game*/
 
