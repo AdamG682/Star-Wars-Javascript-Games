@@ -72,9 +72,18 @@ nav>ul>li {
 
 .grid {
     display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     height: 300px;
     width: 400px;
+}
+
+.centered {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 
 h3 {
