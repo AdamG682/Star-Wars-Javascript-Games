@@ -76,6 +76,8 @@ nav>ul>li {
     border: solid white 4px;
     background-image: url(https://i.pinimg.com/564x/4a/a9/9b/4aa99b6ad2d2cbc7cb04a41571885a8f.jpg);
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -85,17 +87,17 @@ nav>ul>li {
 }
 
 .invader {
-    background-color: purple;
+    background-color: darkslategrey;
     border-radius: 10px;
 }
 
 .shooter {
-    background-color: green;
+    background-color: whitesmoke;
 }
 
 .laser {
     background-color: red;
-    border-radius: 3px;
+    width: 5px;
 }
 
 .boom {
